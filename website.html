@@ -14,42 +14,30 @@
         <p>Your source for communication in technology and the internet</p>
     </header>
 
-    
-        <nav>
-            <ul>
-                <li><a href="#" id="home-link">Home</a></li>
-                <li><a href="#" id="career-insights-link">Career Insights</a></li>
-                <li><a href="#" id="blog-link">Blog</a></li>
-                <li><a href="#" id="contact-link">Contact Us</a></li>
-            </ul>
-        </nav>
-        
-        <script src="javascript.js"></script>
-
+    <nav>
+        <button onclick="openTab('home')">Home</button>
+        <button onclick="openTab('career')">Career Insights</button>
+        <button onclick="openTab('blog')">Blog</button>
+        <button onclick="openTab('contact')">Contact Us</button>
+    </nav>
 
     <main>
         <section id="home">
             <h2>Welcome to Tech Hub Insights!</h2>
-            <p>Discover the latest trends and ideas in technology communication.
-                </p>
+            <p>Discover the latest trends and ideas in technology communication.</p>
         </section>
 
-        <section id="resources">
-            <h2>Resources</h2>
-            <p>Discover useful resources to help you improve your understanding of technical communication.</p>
-        </section>
-
-        <section id="career">
+        <section id="career" style="display: none;">
             <h2>Career Insights</h2>
             <p>Get career advice and insights for success in the tech communication business.</p>
         </section>
 
-        <section id="blog">
+        <section id="blog" style="display: none;">
             <h2>Blog</h2>
             <p>Keep up with our interesting blog postings on various elements of tech communication.</p>
         </section>
 
-        <section id="contact">
+        <section id="contact" style="display: none;">
             <h2>Contact Us</h2>
             <p>Contact us if you have any questions, recommendations, or want to collaborate.</p>
         </section>
@@ -58,6 +46,19 @@
     <footer>
         <p>&copy; 2024 Tech Hub Insights. All rights reserved.</p>
     </footer>
+
+    <script>
+        function openTab(tabName) {
+            // Hide all sections
+            var sections = document.querySelectorAll('section');
+            sections.forEach(function (section) {
+                section.style.display = 'none';
+            });
+
+            // Show the selected section
+            document.getElementById(tabName).style.display = 'block';
+        }
+    </script>
 </body>
 
 </html>
