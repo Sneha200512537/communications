@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech Insights Hub</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -16,6 +16,7 @@
 
     <nav>
         <button onclick="openTab('home')">Home</button>
+        <button onclick="openTab('resources')">Resources</button>
         <button onclick="openTab('career')">Career Insights</button>
         <button onclick="openTab('blog')">Blog</button>
         <button onclick="openTab('contact')">Contact Us</button>
@@ -25,6 +26,11 @@
         <section id="home">
             <h2>Welcome to Tech Hub Insights!</h2>
             <p>Discover the latest trends and ideas in technology communication.</p>
+        </section>
+
+        <section id="resources" style="display: none;">
+            <h2>Resources</h2>
+            <p>Discover useful resources to help you improve your understanding of technical communication.</p>
         </section>
 
         <section id="career" style="display: none;">
@@ -47,18 +53,7 @@
         <p>&copy; 2024 Tech Hub Insights. All rights reserved.</p>
     </footer>
 
-    <script>
-        function openTab(tabName) {
-            // Hide all sections
-            var sections = document.querySelectorAll('section');
-            sections.forEach(function (section) {
-                section.style.display = 'none';
-            });
-
-            // Show the selected section
-            document.getElementById(tabName).style.display = 'block';
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>
