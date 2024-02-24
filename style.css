@@ -57,10 +57,10 @@ main {
 }
 
 section {
-    display: none;
+    margin-bottom: 30px;
 }
 
-#home {
+section#home {
     display: block;
 }
 
