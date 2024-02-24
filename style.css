@@ -66,6 +66,7 @@ section h2,h3 {
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 section p {
@@ -73,6 +74,7 @@ section p {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 section img {
     display: block;
