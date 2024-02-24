@@ -53,10 +53,15 @@ nav button:hover {
 /* Main content styles */
 main {
     padding: 20px;
+    text-align: center;
 }
 
 section {
-    margin-bottom: 30px;
+    display: none;
+}
+
+#home {
+    display: block;
 }
 
 section h2 {
