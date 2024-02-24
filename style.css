@@ -65,6 +65,20 @@ section #home > h3 {
     font-size: 16px;
 }
 
+section #tab > h4 {
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+}
+section #home > p {
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
 
 
 section h2 {
