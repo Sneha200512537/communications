@@ -32,20 +32,38 @@ header p {
 
 /* Navigation styles */
 nav {
-    background-color: #666;
-    padding: 10px 0;
-    text-align: center;
+    background-color: #333; /* Background color */
+    padding: 10px 0; /* Padding for top and bottom */
+    text-align: center; /* Center align the menu */
 }
 
-nav button {
-    background-color: #ccc;
-    color: #333;
-    padding: 10px 20px;
-    margin: 0 5px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+nav ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Spacing between list items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove right margin for the last list item */
+}
+
+nav ul li a {
+    color: #fff; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold font weight */
+    padding: 10px 20px; /* Padding for top and bottom, and left and right */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Background color on hover */
 }
 
 nav button:hover {
