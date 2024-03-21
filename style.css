@@ -124,57 +124,24 @@ section#home > img {
 section#home > img:hover::after {
     opacity: 1; /* Show the border on hover */
 }
-/* Style the container div */
-.anchor-tag {
-    text-align: center; /* Center align the anchor tag */
-    margin-top: 20px; /* Add some top margin for spacing */
+/* CSS for Anchor Tag in Section Home */
+#home .anchor-tag {
+    margin-top: 20px; /* Add space above the anchor tag */
+    text-align: center; /* Center-align the anchor tag */
 }
 
-/* Style the anchor tag */
-.anchor-tag a {
-    display: inline-block;
-    background-color: #007BFF; /* Background color for the anchor tag */
-    color: #fff; /* Text color */
-    padding: 10px 20px; /* Padding for better appearance */
-    text-decoration: none;
-    border-radius: 5px; /* Rounded corners */
-    font-weight: bold;
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transition on hover */
+#home .anchor-tag a {
+    display: inline-block; /* Display anchor tag as block element */
+    padding: 10px 20px; /* Add padding to the anchor tag */
+    background-color: #007bff; /* Set background color */
+    color: #fff; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 4px; /* Add border radius */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
-/* Hover effect for the anchor tag */
-.anchor-tag a:hover {
-    background-color: #0056b3; /* Darker background color on hover */
-    transform: scale(1.05); /* Scale up on hover for a subtle 3D effect */
-}
-
-
-section#tab > h4 {
-    margin-bottom: 30px;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 16px;
-}
-
-section#tab > p {
-    margin-bottom: 30px;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 16px;
-}
-/* Style the image in section home */
-section#career > img {
-    display: block; /* Ensure the image is displayed as a block element */
-    margin: 0 auto 30px; /* Center the image horizontally and add some bottom margin */
-    max-width: 100%; /* Ensure the image does not exceed its container's width */
-    border-radius: 10px; /* Add rounded corners to the image */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
-    transition: transform 0.3s ease; /* Add a smooth transition effect */
-}
-
-/* Add hover effect for the image */
-section#career > img:hover {
-    transform: scale(1.05); /* Scale the image up slightly on hover for a zoom effect */
+#home .anchor-tag a:hover {
+    background-color: #0056b3; /* Change background color on hover */
 }
 
 /* Style the image in section home */
