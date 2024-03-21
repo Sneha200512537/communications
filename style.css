@@ -114,7 +114,9 @@ section#home > p {
 /* Style the image in section home */
 section#home > img {
     display: block; /* Ensure the image is displayed as a block element */
-    margin: 0 auto 30px; /* Center the image horizontally and add some bottom margin */
+   
+    margin-bottom: 30px; /* Keep margin bottom */
+    margin-bottom: 30px; /* Keep margin bottom */
     max-width: 200%; /* Ensure the image does not exceed its container's width */
     max-height: 200px; /* Set the maximum height to 200 pixels */
     border-radius: 10px; /* Add rounded corners to the image */
