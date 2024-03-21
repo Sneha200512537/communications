@@ -162,7 +162,7 @@ section#tab > p {
     font-size: 16px;
 }
 /* Style the image in section home */
-section#carre > img {
+section#career > img {
     display: block; /* Ensure the image is displayed as a block element */
     margin: 0 auto 30px; /* Center the image horizontally and add some bottom margin */
     max-width: 100%; /* Ensure the image does not exceed its container's width */
