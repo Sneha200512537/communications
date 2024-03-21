@@ -166,6 +166,7 @@ section#tab > h4 {
     text-align: center;
     line-height: 1.5;
     font-size: 16px;
+    color: #1a73e8;
 }
 
 /* Style p elements */
@@ -175,7 +176,7 @@ section#tab > p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6; /* Increase line height for better readability */
     font-size: 18px; /* Increase font size */
-    color: #333; /* Darker text color */
+    color: #515050; /* Darker text color */
 }
 /* Style the image in section career */
 section#career > img {
