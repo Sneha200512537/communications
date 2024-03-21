@@ -140,7 +140,7 @@ section#tab > p {
     font-size: 16px;
 }
 /* Style the image in section home */
-section#tab > img {
+section#carre > img {
     display: block; /* Ensure the image is displayed as a block element */
     margin: 0 auto 30px; /* Center the image horizontally and add some bottom margin */
     max-width: 100%; /* Ensure the image does not exceed its container's width */
@@ -150,7 +150,7 @@ section#tab > img {
 }
 
 /* Add hover effect for the image */
-section#tab > img:hover {
+section#career > img:hover {
     transform: scale(1.05); /* Scale the image up slightly on hover for a zoom effect */
 }
 
