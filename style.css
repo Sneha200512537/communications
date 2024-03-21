@@ -144,7 +144,36 @@ section#home > img:hover::after {
     background-color: #0056b3; /* Change background color on hover */
 }
 
-/* Style the image in section home */
+section #tab > h4 {
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+section #tab > p {
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+/* Style the image in section career */
+section#career > img {
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto ; /* Center the image horizontally and add some bottom margin */
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    max-height: 200px; /* Set the maximum height to 200 pixels */
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Add hover effect for the image */
+section#career > img:hover {
+    transform: scale(1.05); /* Scale the image up slightly on hover for a zoom effect */
+}
+/* Style the image in section blog */
 section#blog > img {
     display: block; /* Ensure the image is displayed as a block element */
     margin: 0 auto ; /* Center the image horizontally and add some bottom margin */
