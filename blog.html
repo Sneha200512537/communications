@@ -31,11 +31,9 @@
                  web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="comment-section">
-                <h3>Leave a Comment</h3>
-                <form action="submit_comment.php" method="post">
-                    <label for="comment">Your Comment:</label><br>
-                    <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
-                    <input type="submit" value="Submit">
+                <form id="comment-form">
+                    <textarea id="comment-text" placeholder="Leave a comment" rows="4" cols="50"></textarea><br>
+                    <button type="submit">Submit</button>
                 </form>
             </div>
         </section>
