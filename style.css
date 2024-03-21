@@ -171,9 +171,8 @@ section#blog > img:hover {
 }
 
 
-/* Style for the video container */
+/* Add this CSS to your existing stylesheet */
 .video-container {
-    width: 100%; /* Make sure the container takes up the full width */
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space the videos evenly */
     margin-bottom: 20px; /* Add some space below the videos */
@@ -185,7 +184,8 @@ section#blog > img:hover {
     height: auto; /* Let the height adjust proportionally */
 }
 
-/* Adjust the width percentage as needed to fit both videos side by side */
+
+
 
 
 /* Style for the comment section */
