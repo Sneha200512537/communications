@@ -123,10 +123,11 @@ section#home > img {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
     transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
-/* Show border on hover */
-section#home > img:hover::after {
-    opacity: 1; /* Show the border on hover */
+/* Add hover effect for the image */
+section#home > img:hover {
+    transform: scale(1.05); /* Scale the image up slightly on hover for a zoom effect */
 }
+
 /* CSS for Anchor Tag in Section Home */
 #home .anchor-tag {
     margin-top: 20px; /* Add space above the anchor tag */
