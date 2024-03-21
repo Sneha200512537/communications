@@ -161,6 +161,11 @@ section#career > h2 {
     line-height: 1.5;
     font-size: 16px;
 }
+section#career > p {
+    color: #000000;
+    text-align: center;
+    font-style: italic;
+}
 section#tab > h4 {
     margin-bottom: 30px;
     text-align: center;
