@@ -22,34 +22,56 @@
         <section id="contact">
             <h2>Contact Us</h2>
             <p>Contact us if you have any questions, recommendations, or want to collaborate.</p>
-                    <form name="contactForm" id="contactForm" action="submit_form.php" method="POST">
-                        <div class="form-group">
-                            <label for="firstName">First Name</label>
-                            <input type="text" id="firstName" name="firstName" required>
-                        </div>
-        
-                        <div class="form-group">
-                            <label for="lastName">Last Name</label>
-                            <input type="text" id="lastName" name="lastName" required>
-                        </div>
-        
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-        
-                        <div class="form-group">
-                            <label>
-                                <input type="checkbox" name="notARobot" required>
-                                I am not a robot
-                            </label>
-                        </div>
-        
+            <h2>Contact Us</h2>
+            <div class="contact-section">
+                <form id="contact-form">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Leave your message here" rows="4" cols="50" required></textarea>
+                    </div>
+                    <div>
                         <button type="submit">Submit</button>
-                    </form>
-                </div>
+                    </div>
+                </form>
+            </div>
+            <!-- Message section -->
+            <div id="messages">
+                <h2>Received Messages</h2>
+                <!-- Existing messages will be displayed here -->
+            </div>
+        
+            <script>
+                // Function to handle form submission
+                document.getElementById("contact-form").addEventListener("submit", function(event) {
+                    event.preventDefault(); // Prevent default form submission
+                    
+                    // Get form data
+                    var name = document.getElementById("name").value;
+                    var email = document.getElementById("email").value;
+                    var message = document.getElementById("message").value;
+        
+                    // Create a new message element
+                    var messageElement = document.createElement("div");
+                    messageElement.innerHTML = "<strong>Name:</strong> " + name + "<br><strong>Email:</strong> " + email + "<br><strong>Message:</strong> " + message;
+        
+                    // Append the message to the messages section
+                    document.getElementById("messages").appendChild(messageElement);
+        
+                    // Clear the form fields
+                    document.getElementById("name").value = "";
+                    document.getElementById("email").value = "";
+                    document.getElementById("message").value = "";
+                });
+            </script>
             </section>
-        </section>
     </main>
     <footer>
         <!-- Footer content -->

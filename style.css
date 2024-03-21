@@ -257,48 +257,61 @@ section#contact {
     padding: 20px; /* Add padding to the section */
 }
 
-#contactForm {
-    margin-top: 20px; /* Add space above the form */
+/* Contact form styles */
+.contact-section {
+    margin-top: 20px;
 }
 
-.form-group {
-    margin-bottom: 15px; /* Add space between form groups */
+.contact-section form {
+    display: flex;
+    flex-direction: column;
 }
 
-label {
-    display: block; /* Display labels as block elements */
-    font-weight: bold; /* Make labels bold */
+.contact-section div {
+    margin-bottom: 10px;
 }
 
-input[type="text"],
-input[type="email"] {
-    width: 100%; /* Set input fields to take full width */
-    padding: 8px; /* Add padding to input fields */
-    border: 1px solid #ccc; /* Add border to input fields */
-    border-radius: 4px; /* Add border radius to input fields */
-    box-sizing: border-box; /* Ensure padding and border are included in the width */
+.contact-section label {
+    font-weight: bold;
 }
 
-input[type="checkbox"] {
-    margin-right: 5px; /* Add space to the right of checkboxes */
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-button[type="submit"] {
-    background-color: #007bff; /* Button background color */
-    color: #fff; /* Button text color */
-    padding: 10px 20px; /* Button padding */
-    border: none; /* Remove button border */
-    border-radius: 4px; /* Add border radius to button */
-    cursor: pointer; /* Add cursor pointer on hover */
-    transition: background-color 0.3s ease; /* Smooth transition for button background color */
+.contact-section textarea {
+    resize: vertical;
 }
 
-button[type="submit"]:hover {
-    background-color: #0056b3; /* Button background color on hover */
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
+.contact-section button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
 
+/* Message section styles */
+#messages {
+    margin-top: 20px;
+}
 
+#messages div {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 
 /* Footer styles */
 footer {
