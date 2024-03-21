@@ -93,7 +93,7 @@ section#home > h2 {
 }
 
 
-section #home > h3 {
+section #home > h3 p {
     margin-bottom: 30px;
     text-align: center;
     line-height: 1.5;
