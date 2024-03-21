@@ -36,10 +36,49 @@
                     <button type="submit">Submit</button>
                 </form>
             </div>
+             <!-- Comments section -->
+             <div id="comments">
+                <!-- Existing comments will be displayed here -->
+            </div>
         </section>
     </main>
     <footer>
         <!-- Footer content -->
     </footer>
+    <script>
+        // Function to handle form submission
+        document.getElementById("comment-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent default form submission
+            
+            // Get comment text from textarea
+            var commentText = document.getElementById("comment-text").value;
+            
+            // Create a new comment element
+            var commentElement = document.createElement("p");
+            commentElement.textContent = commentText;
+            
+            // Append the comment to the comments section
+            document.getElementById("comments").appendChild(commentElement);
+            
+            // Clear the textarea
+            document.getElementById("comment-text").value = "";
+            
+            // Save the comments to localStorage
+            var comments = localStorage.getItem("comments") ? JSON.parse(localStorage.getItem("comments")) : [];
+            comments.push(commentText);
+            localStorage.setItem("comments", JSON.stringify(comments));
+        });
+
+        // Function to load existing comments from localStorage
+        window.addEventListener("DOMContentLoaded", function() {
+            var comments = localStorage.getItem("comments") ? JSON.parse(localStorage.getItem("comments")) : [];
+            var commentsContainer = document.getElementById("comments");
+            comments.forEach(function(commentText) {
+                var commentElement = document.createElement("p");
+                commentElement.textContent = commentText;
+                commentsContainer.appendChild(commentElement);
+            });
+        });
+    </script>
 </body>
 </html>
