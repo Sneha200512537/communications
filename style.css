@@ -113,17 +113,39 @@ section#home > p {
 /* Style the image in section home */
 section#home > img {
     display: block; /* Ensure the image is displayed as a block element */
-    margin: 0 auto 30px; /* Center the image horizontally and add some bottom margin */
+    margin: 0 auto 20px; /* Center the image horizontally and add some bottom margin */
     max-width: 100%; /* Ensure the image does not exceed its container's width */
     border-radius: 10px; /* Add rounded corners to the image */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
     transition: transform 0.3s ease; /* Add a smooth transition effect */
+    filter: grayscale(50%); /* Apply grayscale effect to the image by default */
 }
 
 /* Add hover effect for the image */
 section#home > img:hover {
-    transform: scale(1.05); /* Scale the image up slightly on hover for a zoom effect */
+    transform: scale(1.1); /* Scale the image up slightly on hover for a zoom effect */
+    filter: grayscale(0%); /* Remove grayscale effect on hover */
 }
+
+/* Add a border around the image */
+section#home > img::before {
+    content: ''; /* Add pseudo-element for the border */
+    position: absolute; /* Position the border relative to the image */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid #1a73e8; /* Border color */
+    border-radius: 10px; /* Border radius */
+    transition: opacity 0.3s ease; /* Add transition effect for border */
+    opacity: 0; /* Initially hide the border */
+}
+
+/* Show border on hover */
+section#home > img:hover::before {
+    opacity: 1; /* Show the border on hover */
+}
+
 
 
 section#tab > h4 {
