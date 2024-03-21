@@ -67,7 +67,7 @@ nav ul li a:hover {
 }
 
 nav button:hover {
-    background-color: #ddd;
+    background-color: #1c92b3;
 }
 
 /* Main content styles */
@@ -120,7 +120,7 @@ section img {
 /* Footer styles */
 footer {
     background-color: #f40a0a;
-    color: #fff;
+    color: #1bd6c0;
     padding: 20px;
     text-align: center;
 }
