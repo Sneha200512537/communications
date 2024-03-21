@@ -2,7 +2,6 @@
 body, h1, h2, h3, p, ul, ol {
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
 /* Set default font family and size */
@@ -10,12 +9,13 @@ body {
     font-family: Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: #add8e6; /* Light blue background color */
     text-align: center;
 }
 
 /* Header styles */
 header {
-    background-color: #ffc0cb;; /* Change to red */
+    background-color: #ffc0cb; /* Light pink background color */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -32,48 +32,43 @@ header p {
 
 /* Navigation styles */
 nav {
-    background-color: #f10808; /* Background color */
-    padding: 10px 0; /* Padding for top and bottom */
-    text-align: center; /* Center align the menu */
+    background-color: #ffc0cb; /* Light pink background color */
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
-    list-style-type: none; /* Remove bullet points from the list */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline; /* Display list items horizontally */
-    margin-right: 20px; /* Spacing between list items */
+    display: inline;
+    margin-right: 20px;
 }
 
 nav ul li:last-child {
-    margin-right: 0; /* Remove right margin for the last list item */
+    margin-right: 0;
 }
 
 nav ul li a {
-    color: #fff; /* Text color */
-    text-decoration: none; /* Remove underline from links */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Bold font weight */
-    padding: 10px 20px; /* Padding for top and bottom, and left and right */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #f10813; /* Background color on hover */
-}
-
-nav button:hover {
-    background-color: #1c92b3;
+    background-color: #f10813;
 }
 
 /* Main content styles */
 main {
     padding: 20px;
-    text-align: center;
 }
 
 section #home > h3 {
@@ -89,6 +84,7 @@ section #tab > h4 {
     line-height: 1.5;
     font-size: 16px;
 }
+
 section #tab > p {
     margin-bottom: 30px;
     text-align: center;
@@ -96,13 +92,8 @@ section #tab > p {
     font-size: 16px;
 }
 
-
-
-
 section h2 {
     margin-bottom: 10px;
-    
-    
 }
 
 section p {
@@ -112,18 +103,20 @@ section p {
     padding: 0;
     text-align: center;
 }
+
 section img {
     display: block;
-    margin: 0 auto; /* Center align images */
+    margin: 0 auto;
 }
 
 /* Footer styles */
 footer {
-    background-color: #ffc0cb;; /* Change to red */
+    background-color: #ffc0cb; /* Light pink background color */
     color: #1bd6c0;
     padding: 20px;
     text-align: center;
 }
+
 footer p {
     font-size: 14px;
 }
