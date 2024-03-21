@@ -182,7 +182,7 @@ section#blog > img:hover {
 .video-container iframe {
     width: 48%; /* Set the width of each video container */
     max-width: 48%; /* Ensure videos don't exceed the specified width */
-    height: auto; /* Let the height adjust proportionally */
+    height: 250px; /* Let the height adjust proportionally */
 }
 
 
