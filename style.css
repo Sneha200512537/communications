@@ -110,6 +110,21 @@ section#home > p {
     font-size: 18px; /* Increase font size */
     color: #333; /* Darker text color */
 }
+/* Style the image in section home */
+section#home > img {
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto 30px; /* Center the image horizontally and add some bottom margin */
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* Add hover effect for the image */
+section#home > img:hover {
+    transform: scale(1.05); /* Scale the image up slightly on hover for a zoom effect */
+}
+
 
 section#tab > h4 {
     margin-bottom: 30px;
@@ -124,14 +139,25 @@ section#tab > p {
     line-height: 1.5;
     font-size: 16px;
 }
-
-
-
-
-section img {
-    display: block;
-    margin: 0 auto;
+/* Style the image in section home */
+section#tab > img {
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto 30px; /* Center the image horizontally and add some bottom margin */
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
+
+/* Add hover effect for the image */
+section#tab > img:hover {
+    transform: scale(1.05); /* Scale the image up slightly on hover for a zoom effect */
+}
+
+
+
+
+
 
 /* Footer styles */
 footer {
