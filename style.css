@@ -93,28 +93,32 @@ section#home > h2 {
 }
 
 
-section #home > h3  {
+/* Style h3 elements */
+section#home > h3 {
+    margin-bottom: 20px; /* Decrease margin bottom */
+    text-align: center;
+    font-size: 22px; /* Increase font size */
+    font-weight: bold; /* Add bold font weight */
+    color: #1a73e8; /* Blue color for emphasis */
+}
+
+/* Style p elements */
+section#home > p {
+    margin-bottom: 30px; /* Keep margin bottom */
+    text-align: center;
+    line-height: 1.6; /* Increase line height for better readability */
+    font-size: 18px; /* Increase font size */
+    color: #333; /* Darker text color */
+}
+
+section#tab > h4 {
     margin-bottom: 30px;
     text-align: center;
     line-height: 1.5;
     font-size: 16px;
 }
 
-section #home > p  {
-    margin-bottom: 30px;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 16px;
-}
-
-section #tab > h4 {
-    margin-bottom: 30px;
-    text-align: center;
-    line-height: 1.5;
-    font-size: 16px;
-}
-
-section #tab > p {
+section#tab > p {
     margin-bottom: 30px;
     text-align: center;
     line-height: 1.5;
