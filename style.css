@@ -158,8 +158,9 @@ section#career > img:hover {
 /* Style the image in section home */
 section#blog > img {
     display: block; /* Ensure the image is displayed as a block element */
-    margin: 0 auto 30px; /* Center the image horizontally and add some bottom margin */
+    margin: 0 auto ; /* Center the image horizontally and add some bottom margin */
     max-width: 100%; /* Ensure the image does not exceed its container's width */
+    max-height: 200px; /* Set the maximum height to 200 pixels */
     border-radius: 10px; /* Add rounded corners to the image */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
     transition: transform 0.3s ease; /* Add a smooth transition effect */
