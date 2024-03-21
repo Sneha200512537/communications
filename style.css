@@ -15,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #333;
+    background-color: #f10808;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -32,7 +32,7 @@ header p {
 
 /* Navigation styles */
 nav {
-    background-color: #333; /* Background color */
+    background-color: #f10808; /* Background color */
     padding: 10px 0; /* Padding for top and bottom */
     text-align: center; /* Center align the menu */
 }
@@ -63,7 +63,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #555; /* Background color on hover */
+    background-color: #f10813; /* Background color on hover */
 }
 
 nav button:hover {
@@ -119,7 +119,7 @@ section img {
 
 /* Footer styles */
 footer {
-    background-color: #333;
+    background-color: #f40a0a;
     color: #fff;
     padding: 20px;
     text-align: center;
