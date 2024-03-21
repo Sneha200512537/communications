@@ -177,6 +177,7 @@ section#blog > img:hover {
     display: flex; /* Use flexbox for layout */
     justify-content: space-between; /* Space the videos evenly */
     margin-bottom: 20px; /* Add some space below the videos */
+    margin-top: 20px;
 }
 
 .video-container iframe {
