@@ -110,37 +110,16 @@ section#home > p {
     font-size: 18px; /* Increase font size */
     color: #333; /* Darker text color */
 }
+
 /* Style the image in section home */
 section#home > img {
     display: block; /* Ensure the image is displayed as a block element */
-    margin: 0 auto 20px; /* Center the image horizontally and add some bottom margin */
+    margin: 0 auto 30px; /* Center the image horizontally and add some bottom margin */
     max-width: 100%; /* Ensure the image does not exceed its container's width */
     border-radius: 10px; /* Add rounded corners to the image */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transition effects */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for depth */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
 }
-
-/* Add hover effect for the image */
-section#home > img:hover {
-    transform: scale(1.03); /* Scale the image up slightly on hover for a subtle zoom effect */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increase the intensity of the box shadow on hover */
-}
-
-/* Add border to the image */
-section#home > img::after {
-    content: ''; /* Add an empty content pseudo-element */
-    display: block; /* Display as a block element */
-    position: absolute; /* Position absolutely within the container */
-    top: 0; /* Align to the top */
-    left: 0; /* Align to the left */
-    width: calc(100% - 10px); /* Calculate the width minus the border size */
-    height: calc(100% - 10px); /* Calculate the height minus the border size */
-    border: 5px solid rgba(255, 255, 255, 0.5); /* Add a border around the image */
-    border-radius: 10px; /* Match the border radius with the image */
-    transition: opacity 0.3s ease; /* Add a smooth transition for opacity */
-    opacity: 0; /* Initially set opacity to 0 */
-}
-
 /* Show border on hover */
 section#home > img:hover::after {
     opacity: 1; /* Show the border on hover */
