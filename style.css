@@ -249,72 +249,54 @@ section#blog > img:hover {
     margin-bottom: 10px; /* Add some space below the comments section heading */
 }
 
-
-
-/* Contact Me page styles */
-#contact {
-    background-color: #f5f5f5; /* Light gray background for the Contact Me section */
-    padding: 20px;
-    text-align: center;
+/* CSS for Contact Page */
+section#contact {
+    text-align: center; /* Center-align the content */
+    padding: 20px; /* Add padding to the section */
 }
 
-#contact h2 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #333; /* Dark gray text */
-    margin-bottom: 20px;
+#contactForm {
+    margin-top: 20px; /* Add space above the form */
 }
 
-#contact .container {
-    margin: 20px auto;
-    max-width: 600px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: left;
+.form-group {
+    margin-bottom: 15px; /* Add space between form groups */
 }
 
-#contact .form-group {
-    margin-bottom: 20px;
+label {
+    display: block; /* Display labels as block elements */
+    font-weight: bold; /* Make labels bold */
 }
 
-#contact label {
-    display: block;
-    font-weight: bold;
-    color: #333; /* Dark gray text */
+input[type="text"],
+input[type="email"] {
+    width: 100%; /* Set input fields to take full width */
+    padding: 8px; /* Add padding to input fields */
+    border: 1px solid #ccc; /* Add border to input fields */
+    border-radius: 4px; /* Add border radius to input fields */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
-#contact input[type="text"],
-#contact input[type="email"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+input[type="checkbox"] {
+    margin-right: 5px; /* Add space to the right of checkboxes */
 }
 
-#contact .checkbox-label {
-    display: block;
-    margin-top: 10px;
+button[type="submit"] {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    border-radius: 4px; /* Add border radius to button */
+    cursor: pointer; /* Add cursor pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for button background color */
 }
 
-#contact .checkbox-label input {
-    margin-right: 5px;
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Button background color on hover */
 }
 
-#contact button[type="submit"] {
-    background-color: #007BFF; /* Blue background for the submit button */
-    color: #fff; /* White text */
-    padding: 10px 20px; /* Padding for better appearance */
-    border: none;
-    border-radius: 5px; /* Rounded corners */
-    font-weight: bold;
-    transition: background-color 0.3s; /* Smooth transition on hover */
-}
 
-#contact button[type="submit"]:hover {
-    background-color: #0056b3; /* Darker background color on hover */
-}
+
 
 /* Footer styles */
 footer {
