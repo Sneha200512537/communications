@@ -15,7 +15,7 @@ body {
 
 /* Header styles */
 header {
-    background-color: #ff0000; /* Change to red */
+    background-color: #ffc0cb;; /* Change to red */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -119,7 +119,7 @@ section img {
 
 /* Footer styles */
 footer {
-    background-color: #ff0000; /* Change to red */
+    background-color: #ffc0cb;; /* Change to red */
     color: #1bd6c0;
     padding: 20px;
     text-align: center;
