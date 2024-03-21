@@ -195,6 +195,16 @@ section#blog > img:hover {
     transform: scale(1.05); /* Scale the image up slightly on hover for a zoom effect */
 }
 
+/* Style p elements */
+section#blog > p {
+    margin-bottom: 30px; /* Keep margin bottom */
+    text-align: center;
+    line-height: 1.5; /* Increase line height for better readability */
+    font-size: 18px; /* Increase font size */
+    font-style: oblique;
+    color: #000000; /* Darker text color */
+}
+
 
 /* Add this CSS to your existing stylesheet */
 .video-container {
