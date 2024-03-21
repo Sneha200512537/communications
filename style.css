@@ -156,10 +156,10 @@ section#career > h2 {
     margin-bottom: 30px;
     text-align: center;
     font-style: italic;
-    font-size: 22px; /* Increase font size */
+    font-size: 24px; /* Increase font size */
     font-weight: bold; /* Add bold font weight */
     line-height: 1.5;
-    font-size: 16px;
+   
 }
 section#career > p {
     color: #000000;
@@ -170,7 +170,7 @@ section#tab > h4 {
     margin-bottom: 30px;
     text-align: center;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 20px;
     color: #1a73e8;
 }
 
