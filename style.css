@@ -373,6 +373,69 @@ section#contact {
     margin-bottom: 10px;
 }
 
+/* Avatar container */
+.avatars {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+/* Avatar images */
+.avatars img {
+    width: 100px; /* Adjust the size of the avatars */
+    height: 100px;
+    border-radius: 50%; /* Make the avatars circular */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Avatar names */
+.avatar-name {
+    text-align: center;
+    font-style: italic; /* Italicize the text */
+    margin-top: 5px;
+}
+
+/* Enlarge avatar on hover */
+.avatars img:hover {
+    transform: scale(1.1); /* Increase the size of the avatar */
+}
+
+/* Curved text for avatar names */
+.curved-text {
+    position: relative;
+    text-align: center;
+}
+
+.curved-text::after {
+    content: attr(data-name);
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    right: 0;
+    font-style: normal; /* Reset font style */
+    font-size: 14px; /* Adjust font size */
+}
+section#about > h2 {
+    color: #1a73e8; /* Blue color for emphasis */
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    font-size: 24px; /* Increase font size */
+    font-weight: bold; /* Add bold font weight */
+    line-height: 1.5;
+}
+section#about > p {
+    color: #060606; /* Blue color for emphasis */
+    margin-bottom: 30px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px; /* Increase font size */
+    font-weight: bold; /* Add bold font weight */
+    line-height: 1.5;
+   
+}
+
 /* Footer styles */
 footer {
     background-color: #ffc0cb; /* Light pink background color */
