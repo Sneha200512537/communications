@@ -382,8 +382,8 @@ section#contact {
 
 /* Avatar images */
 .avatars img {
-    width: 100px; /* Adjust the size of the avatars */
-    height: 100px;
+    width: 200px; /* Adjust the size of the avatars */
+    height: 200px;
     border-radius: 50%; /* Make the avatars circular */
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
 }
@@ -426,11 +426,11 @@ section#about > h2 {
     line-height: 1.5;
 }
 section#about > p {
-    color: #060606; /* Blue color for emphasis */
+    color: #979797; /* Blue color for emphasis */
     margin-bottom: 30px;
     text-align: center;
     font-style: italic;
-    font-size: 20px; /* Increase font size */
+    font-size: 16px; /* Increase font size */
     font-weight: bold; /* Add bold font weight */
     line-height: 1.5;
    
