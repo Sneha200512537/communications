@@ -379,7 +379,7 @@ section#contact {
 .avatars {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 50px;
+   
 }
 
 /* Avatar images */
@@ -394,7 +394,7 @@ section#contact {
 .avatar-name {
     text-align: center;
     font-style: italic; /* Italicize the text */
-    margin-top: 5px;
+    margin-bottom: 30px;
 }
 
 /* Enlarge avatar on hover */
@@ -402,22 +402,7 @@ section#contact {
     transform: scale(1.1); /* Increase the size of the avatar */
 }
 
-/* Curved text for avatar names */
-.curved-text {
-    position: relative;
-    text-align: center;
-}
 
-/* Curved text for avatar names */
-.curved-text {
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-style: italic;
-    font-size: 14px;
-    white-space: nowrap;
-}
 
 
 
