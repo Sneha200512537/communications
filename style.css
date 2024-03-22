@@ -388,11 +388,12 @@ section#contact {
     height: 200px;
     border-radius: 50%; /* Make the avatars circular */
     transition: transform 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 30px;
 }
 
 /* Avatar names */
 .avatar-name {
-    text-align: center;
+    text-align: left;
     font-style: italic; /* Italicize the text */
     margin-bottom: 30px;
     color: #000000;
