@@ -393,7 +393,7 @@ section#contact {
 
 /* Avatar names */
 .avatar-name {
-    text-align: left;
+    text-align: right;
     font-style: italic; /* Italicize the text */
     margin-bottom: 30px;
     color: #000000;
