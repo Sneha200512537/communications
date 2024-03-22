@@ -406,19 +406,17 @@ section#contact {
     text-align: center;
 }
 
-.curved-text::after {
-    content: attr(data-name);
-    display: block;
+/* Curved text for avatar names */
+.curved-text {
     position: absolute;
-    bottom: -15px;
-    left: 50%; /* Center the text horizontally */
-    transform: translateX(-50%); /* Move the text to the left by 50% of its own width */
-    font-style: italic; /* Italicize the text */
-    font-size: 14px; /* Adjust font size */
-    width: 100%;
-    text-align: center;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-style: italic;
+    font-size: 14px;
     white-space: nowrap;
 }
+
 
 
 section#about > h2 {
