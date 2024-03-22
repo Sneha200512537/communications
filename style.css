@@ -411,11 +411,13 @@ section#contact {
     display: block;
     position: absolute;
     bottom: -15px;
-    left: 0;
-    right: 0;
-    font-style: normal; /* Reset font style */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Move the text to the left by 50% of its own width */
+    font-style: italic; /* Italicize the text */
     font-size: 14px; /* Adjust font size */
 }
+
+
 section#about > h2 {
     color: #1a73e8; /* Blue color for emphasis */
     margin-bottom: 30px;
