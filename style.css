@@ -415,6 +415,9 @@ section#contact {
     transform: translateX(-50%); /* Move the text to the left by 50% of its own width */
     font-style: italic; /* Italicize the text */
     font-size: 14px; /* Adjust font size */
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
 }
 
 
